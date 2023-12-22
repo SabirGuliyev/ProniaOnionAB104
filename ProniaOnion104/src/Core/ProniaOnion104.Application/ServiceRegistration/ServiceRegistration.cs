@@ -1,11 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using ProniaOnion104.Application.MappingProfiles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ProniaOnion104.Application.ServiceRegistration
 {
@@ -15,6 +12,10 @@ namespace ProniaOnion104.Application.ServiceRegistration
         {
             //service.AddAutoMapper(typeof(CategoryProfile));
             service.AddAutoMapper(Assembly.GetExecutingAssembly());
+            //service.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters().AddFluentValidation;
+            service.AddFluentValidationAutoValidation()
+                .AddFluentValidationClientsideAdapters()
+                .AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             return service;
 
         }
