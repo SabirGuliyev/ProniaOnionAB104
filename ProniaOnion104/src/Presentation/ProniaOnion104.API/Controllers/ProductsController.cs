@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProniaOnion104.Application.Abstractions.Services;
+using ProniaOnion104.Application.DTOs.Products;
 
 namespace ProniaOnion104.API.Controllers
 {
@@ -24,6 +25,21 @@ namespace ProniaOnion104.API.Controllers
         public async Task<IActionResult> Get(int id)
         {
             return Ok(await _service.GetByIdAsync(id));
+        }
+        [HttpPost]
+        public async Task<IActionResult> Post([FromForm]ProductCreateDto dto)
+        {
+            await _service.CreateAsync(dto);
+
+            return StatusCode(StatusCodes.Status201Created);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id,ProductUpdateDto dto)
+        {
+            if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
+            await _service.UpdateAsync(id, dto);
+            return StatusCode(StatusCodes.Status204NoContent);
         }
     }
 }
