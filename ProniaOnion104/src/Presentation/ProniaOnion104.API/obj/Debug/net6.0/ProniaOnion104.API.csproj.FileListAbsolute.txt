@@ -143,3 +143,11 @@ C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion10
 C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\obj\Debug\net6.0\ProniaOnion104.API.pdb
 C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\obj\Debug\net6.0\ProniaOnion104.API.genruntimeconfig.cache
 C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\obj\Debug\net6.0\ref\ProniaOnion104.API.dll
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\ProniaOnion104.Infrastructure.dll
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\ProniaOnion104.Infrastructure.pdb
+C:\Users\sabir\Desktop\Ab104 onion\ProniaOnion104\src\Presentation\ProniaOnion104.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
